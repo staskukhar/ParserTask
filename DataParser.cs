@@ -10,7 +10,7 @@ using AngleSharp.Dom;
 namespace TasteWork
 {
     //class which takes Vacancies from divs
-    public class DataParcer
+    public class DataParser
     {
         //method gets objects from divs
         public static IEnumerable<Vacancy> GetObjectsFromDivs(IEnumerable<IElement> divs, string type, string parentLink)

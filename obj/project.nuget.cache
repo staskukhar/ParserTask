@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Jim5OncoziO+RRBOg6nBTJMB+MsdiyD6oww9MQz4ilcSqHfxgLqvp+Ph5zw2CrFoenIbQWabytjzOI+EAYVmlQ==",
+  "dgSpecHash": "KlWi1N6wJ4sAYiJRg4hrkpbxtKX/k+OLJ5S71D4cZO9kkjrdRGH+8Oe+YphjRzmbDjdJLyhswbG2NsEBCxMziw==",
   "success": true,
-  "projectFilePath": "D:\\VisualStudioCode\\TasteWork\\TasteWork.csproj",
+  "projectFilePath": "D:\\VisualStudioCode\\ParserForWorkUa\\TasteWork.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\kukha\\.nuget\\packages\\anglesharp\\1.0.1\\anglesharp.1.0.1.nupkg.sha512",
     "C:\\Users\\kukha\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",

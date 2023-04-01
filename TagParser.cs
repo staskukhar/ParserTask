@@ -3,12 +3,13 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using System;
+using TasteWork;
 using AngleSharp;
 using AngleSharp.Dom;
 
 namespace TasteWork
 {
-    public class TagParcer
+    public class TagParser
     {
         //method gets child links from some class of another link
         public static async Task<IEnumerable<string>> GetChildLinksFrom(string link, string fromClass, string parentLink)
@@ -83,7 +84,7 @@ namespace TasteWork
             {
                 var config = Configuration.Default.WithDefaultLoader();
                 var document = await BrowsingContext.New(config).OpenAsync(String.Concat(link));
-                int totalPages = await DataParcer.GetTotalPages(link);
+                int totalPages = await DataParser.GetTotalPages(link);
                 if(totalPages != 0)
                 {
                     for(int page = 1; page <= totalPages; page++)
